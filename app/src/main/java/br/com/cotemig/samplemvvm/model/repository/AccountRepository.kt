@@ -4,7 +4,7 @@ import br.com.cotemig.samplemvvm.model.entity.User
 import br.com.cotemig.samplemvvm.model.storage.LocalStorage
 import java.lang.Exception
 
-class AccountRepository(): AccountDataSource {
+class AccountRepository: AccountDataSource {
 
     override fun login(email: String, password: String): Boolean {
         if (email == "felipe@mail.com" && password == "12345")
